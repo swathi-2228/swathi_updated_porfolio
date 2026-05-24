@@ -1,47 +1,63 @@
 # Swathi OS Portfolio
 
-A responsive OS-themed personal portfolio website designed to showcase my profile, skills, experience, projects, resume, and services in a creative desktop-style interface.
+A modern OS-inspired personal portfolio website designed to showcase my skills, projects, resume, and professional profile through an interactive desktop-style user interface.
 
-## About Me
+## Overview
 
-I am **Swathi S**, a passionate web developer focused on building clean, responsive, and user-friendly web applications. I enjoy working across both front-end and back-end development and continuously improving my technical skills through practical projects.
+This portfolio is built with a creative operating-system-inspired interface where visitors can explore different sections such as About, Skills, Projects, Resume, and Contact through interactive application-style icons and windows.
 
-## Live Website
-
-The live website link will be added after deployment.
-
-<!-- After Netlify deployment, replace the above line with:
-[View Live Portfolio](https://your-site-name.netlify.app)
--->
+The website focuses on a clean, responsive, and visually engaging user experience across desktop, tablet, and mobile devices.
 
 ## Features
 
-- Creative OS / desktop-inspired portfolio interface
-- Interactive sections for About, Skills, Projects, Resume, Experience, Education, Services, and Contact
-- Responsive layout for mobile, tablet, laptop, and desktop devices
-- Project detail pages with technologies and key features
-- Downloadable resume option
-- Smooth animations and modern dark UI design
+- OS-inspired interactive portfolio interface
+- Responsive design for mobile, tablet, laptop, and desktop
+- About section with active profile display
+- Categorized technical skills section
+- Project explorer with individual project detail views
+- Project-specific illustration support
+- Resume file card with download option
+- Contact section for professional enquiries
+- Dark modern developer-themed design
 
-## Skills
+## Tech Stack
+
+### Front-End
+- HTML
+- CSS
+- JavaScript
+- React
+- TypeScript
+- Tailwind CSS
+
+### Build Tool
+- Vite
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Netlify
+
+## Portfolio Skills Displayed
+
+### Backend
+- Python
+- PHP
+- Node.js
+
+### Database
+- MySQL
+- MongoDB
 
 ### Front-End
 - HTML
 - CSS
 - JavaScript
 
-### Back-End
-- Python
-- PHP
-- Node.js
-
 ### Frameworks
 - Flask
 - Laravel
-
-### Database
-- MySQL
-- MongoDB
 
 ### Tools
 - GitHub
@@ -50,143 +66,42 @@ The live website link will be added after deployment.
 - VS Code
 - Antigravity
 
-## Projects
+## Projects Showcased
 
 ### Trust Site – Donation Platform
-**Tech Stack:** PHP, MySQL
+A donation-focused web application designed to manage donor information, contributions, and donation-related records efficiently.
 
-A donation platform designed to manage donation activities, donor information, contribution records, and fundraising-related data.
+**Technology:** PHP, MySQL
 
 ### Martial Arts Training Institute Management System
-**Tech Stack:** PHP, MySQL
+A management system designed for handling student information, training batches, and institute-related activities.
 
-A management system for organizing student registrations, training information, classes, batches, and institute-related records.
+**Technology:** PHP, MySQL
 
 ### Project Management System
-**Tech Stack:** PHP, MySQL
+A workflow-oriented project and task management system inspired by modern productivity platforms.
 
-A project and task management application inspired by modern workflow management platforms, supporting task tracking and project status organization.
+**Technology:** PHP, MySQL
 
 ### PulmoCareNet – Lung Disease Detection System
-**Tech Stack:** Python, Flask, Deep Learning, MySQL
+A healthcare-focused web application designed to support lung disease detection using deep learning and a Flask-based interface.
 
-A web-based healthcare support system that uses deep learning to assist with lung disease detection and displays results through a user-friendly interface.
+**Technology:** Python, Flask, Deep Learning, MySQL
 
 ### E-Commerce Website Development
-**Tech Stack:** PHP, MySQL, HTML, CSS, JavaScript
+A responsive e-commerce website designed to present products and support online shopping-related functionality.
 
-A responsive online shopping website with structured product presentation, frontend interactions, backend functionality, and database integration.
-
-## Tech Stack Used in This Portfolio
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Motion animations
-- Lucide React icons
-
-## Run Locally
-
-### Prerequisites
-
-Make sure you have installed:
-
-- Node.js
-- npm
-- VS Code or any code editor
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/swathi-2228/swathi_updated_porfolio.git
-```
-
-2. Open the project folder:
-
-```bash
-cd swathi_updated_porfolio
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-5. Open the local URL shown in the terminal, usually:
-
-```text
-http://localhost:3000/
-```
-
-## Build for Production
-
-To generate the production-ready build:
-
-```bash
-npm run build
-```
-
-The optimized website files will be created inside the `dist` folder.
-
-## Deployment on Netlify
-
-This project can be deployed through GitHub and Netlify.
-
-### Netlify Build Settings
-
-| Setting | Value |
-|---|---|
-| Branch to deploy | `main` |
-| Build command | `npm run build` |
-| Publish directory | `dist` |
-
-After connecting this GitHub repository to Netlify, every new push to the `main` branch will automatically trigger a new deployment.
+**Technology:** PHP, MySQL, HTML, CSS, JavaScript
 
 ## Resume
 
-The portfolio contains a downloadable original resume PDF inside the Resume section.
+The portfolio includes a resume download option for viewing professional information directly through the website.
 
-## Contact
+> Personal contact details and resume contents are intentionally not included in this repository README.
 
-- **Name:** Swathi S
-- **Email:** swathysuresh114@gmail.com
-- **Location:** Karaikudi
+## Installation and Local Setup
 
-## Repository Structure
+Clone the repository:
 
-```text
-swathi_updated_porfolio/
-├── public/
-│   ├── images/
-│   ├── projects/
-│   └── Swathi_S_Resume.pdf
-├── src/
-│   ├── App.tsx
-│   ├── constants.ts
-│   ├── index.css
-│   ├── main.tsx
-│   └── types.ts
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
-## Author
-
-**Swathi S**  
-Software Developer | Web Developer
-
----
-
-Made with dedication by Swathi S.
+```bash
+git clone <your-repository-url>
